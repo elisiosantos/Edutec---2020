@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+
+              
+    <nav>
+        <ul>
+            <li><a href="index.html"> Home</li></a>
+            <li><a href="quiz.html"> quiz</li></a>
+            <li><a href="contato.html"> Contato</li></a>
+        </ul>
+
+    <div id="corpo">
+    <form action="https://api.staticforms.xyz/submit" method="post">
+        <input type="text" name="name" placeholder="Nome" id="p1">
+        <input type="text" name="email" placeholder="Email"id="p2"/>
+        <textarea name="message"></textarea>
+        <input type="text" name="honeypot" style="display:none">
+        <input type="hidden" name="accessKey" value="9e7607b7-0a9c-4c53-a6b9-d1ca91dd3409">
+      
+       
+        <input type="submit" value="Enviar" id="butao"/>
+    </form>
+</div>
+
+
+    
+</body>
+</html>

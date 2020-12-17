@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    background-color: black;
+  
+    font-size: 39px;
+    text-align: center;
+    color: white;
+    display: inline;
+    
+    
+   
+ 
+   
+  
+}
+
+ul{
+    background-color: black;
+    text-align: center;
+
+
+}
+
+
+    a{
+        padding: 20px;
+        color:rgb(255, 255, 255);
+        text-decoration: none;
+        text-align: center;
+        
+    
+    }
+
+  
+  a:hover{
+              padding: 20px;
+    color:rgb(95, 95, 95);
+    text-decoration: none;
+    text-align: center;
+
+    
+
+  }
+
+
+  ::-webkit-scrollbar{
+    width: 5px;
+    background-color: white;
+   
+
+}
+
+::-webkit-scrollbar-track{
+    background-color: #888;
+
+
+}
+
+
+::-webkit-scrollbar-thumb  {
+    height: 10px;
+    background-color:blue;
+} 
+
+::-webkit-scrollbar-thumb:hover  {
+    height: 10px;
+    background-color:white ;
+} 
+
+#biomas:checked ~.sections{
+    margin-top: -100vh;
+
+
+}
+
+h1{
+    text-align: center;
+    justify-content: center;
+    background-color: grey; 
+   
+}
+
+p{
+    font-size: 25px;
+    text-align: left;
+    text-indent: 52px;
+
+   
+}
+
+h2{
+     text-indent: 32px;
+       
+}
+
+
+#cor1{  
+    background-color: grey;
+
+
+}
+
+h3{
+    text-indent: 32px;
+    font-size: 25px;
+
+
+}
+
+h4{ text-indent: 32px;
+    font-size: 25px;
+
+}
+
+h5{
+    text-indent: 32px;
+    font-size: 25px;
+}
+
+h6{
+    text-indent: 32px;
+    font-size: 25px;  
+}
+img{
+    width: 400px;
+    padding-left: 520px;
+    padding-top: 30px;
+}
+
+footer{
+        text-align: center;
+        color: red;
+        background-color: black;
+}
+
+.fundo{
+    background-color: orange;
+    width: 800px;
+    border: 3px solid black;
+    margin-left: 350px;
+    margin: 25px 290px;
+
+}
+
+
+
+
+
+
+#couteudo{
+    
+    background-color: black;
+    width: 10px;
+    cursor: pointer;
+   text-align: left;
+   text-indent: 10px;
+   justify-content: center;
+}
+
+#Objetivo{
+    color: white;
+    position: absolute;
+    top:10px;
+    left:50px;
+    width: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-justify: auto;
+    align-items: center;
+}
+
+.obj{
+    background-color: black;
+}
+
+footer{
+    padding: 60px;
+
+
+}
+footer{
+    margin-top: 39px;
+    padding: 14px;
+    text-align: center;
+    font-size: 20px;
+    
+    
+
+}
+
+#footer1{
+    
+    padding: 14px;
+   text-align: center;
+    font-size: 20px;
+    display: inline-block;
+
+}
+

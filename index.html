@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biomas</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="imagem.ico" type="image/x-icon">
+</head>
+<body onload="slider1()">
+
+   
+</div>
+
+
+
+          <header>
+    <nav>
+        <ul >
+            <li><a href="#inicio"> BIOMAS</li></a>
+            <li ><a href="quiz.html"> QUIZ</li></a>
+            <li ><a href="contato.html"> CONTATO</li></a>
+        </ul>
+
+      
+   
+    </header>
+    </nav>
+
+        <p id="Objetivo">Objetivo</p>
+        <div class="obj">
+        <p id="couteudo">
+            <br>
+            Queremos dispertar a curiosidade das pessoas e fazer com que pesquisem mais sobre os biomas.
+           
+            
+         
+            
+            <br>
+            <br>
+            <br>
+        </p>
+    </div>
+
+        <video width="100%" height="100%" autoplay muted loop>
+            
+            <source src="mundo.mp4">
+                
+
+        </video>
+      
+        <div id="separaçao"></div>
+        <h1 id="inicio">Por que estudar biomas?</h1>
+        <p id="cor1"> A vida humana depende da manutençao dos biomas. Eles contribuem com o clima e são fonte de vida e riqueza natural.
+       
+        </p>
+    </div> 
+     
+    <div class="fundo">
+
+        <h2 >Amazônia</h2>
+        
+        <p id="amazonia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nobis rem nesciunt. Exercitationem iste beatae nemo quibusdam suscipit! Illo tempora eius debitis temporibus amet maiores minima assumenda, quos perferendis quisquam.</p>
+        <br>
+        <br>    
+        <p>Vegetação</p>  
+        <br>
+  
+
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing eli</p>
+        <br>
+        <br>   
+        <h3>Cerrado</h3>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing eli c</p>
+        <br>
+        <br>   
+        <h4>Cattinga</h4>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing eli</p>
+        <br>
+        <br>   
+        <h5>Pantanal</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing eli</p>
+        <br>
+        <br>   
+        <h6>Mata Atlântica</h6>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing eli</p>
+        <br>
+        <br>
+     </div>
+        <img src="imagem1.jpg" width="300px" alt="" srcset="" id="img">
+       
+
+            <footer><P id="footer1">&copy Edutec </P>
+                <p id="footer1">
+                    <a  href="https://www.mma.gov.br/biomas.html" target="_black">
+                        https://www.mma.gov.br/biomas.html</a>
+
+                        <a  href="https://brasilescola.uol.com.br/o-que-e/biologia/o-que-e-bioma.htm" target="_black">
+                            https://brasilescola.uol.com.br/o-que-e/biologia/o-que-e-bioma.htm</a></p>
+            </footer>
+
+        <script src="jquery-3.5.1.min.js"></script>
+
+            <script>
+
+                $('#Objetivo'). click(function(){
+                 
+                $('#couteudo').css({opacity:1})
+                $(this).css('color','white')
+                $('#couteudo').css("background-color", "black")
+                }).mouseover(function(){
+                    $('#couteudo').css({opacity:1})
+                $(this).css('color','white')
+                $('#couteudo').css("background-color", "#888")
+                $('#couteudo').css("width", "260px")
+                })
+                
+
+
+
+            var intervalo=3000;
+            var ultimo=1000;
+            function slider1(){
+                document.getElementById('img').src='imagem1.jpg';
+                setTimeout('slider2()', intervalo)
+            }
+
+            function slider2(){
+                document.getElementById('img').src='amazonia.jpg';
+                setTimeout('slider3()', intervalo)
+            }
+
+            function slider3(){
+                document.getElementById('img').src='mata.jpg';
+                setTimeout('slider5()', intervalo)
+            }
+
+            function slider5(){
+                document.getElementById('img').src='pantanal.jpg';
+                setTimeout('slider6()', intervalo)
+            }
+
+            function slider6(){
+                document.getElementById('img').src='tropical.jpg';
+                setTimeout('slider7()', intervalo)
+            }
+            
+            function slider7(){
+                document.getElementById('img').src='temperada.jpg';
+                setTimeout('slider8()', intervalo)
+            }
+
+            function slider8(){
+                document.getElementById('img').src='tundra.jpg';
+                setTimeout('slider10()', intervalo)
+            }
+            
+   
+
+           function slider10(){
+                document.getElementById('img').src='taiga.jpg';
+                setTimeout('slider11()', intervalo)
+            }
+
+            function slider11(){
+                document.getElementById('img').src='deserto.jpg';
+                setTimeout('slider1()', ultimo)
+            }
+  
+
+
+
+
+        </script>
+    
+</body>
+</html>

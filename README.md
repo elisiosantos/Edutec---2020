@@ -1,2 +1,2 @@
-# Edutec---2020
-Site edutec - usando javascript e jquery, css e html. só não está responsivo.
+# Biologia, site para estudo ---2020
+Projeto Edutec - usando javascript e jquery, css e html.
